@@ -201,6 +201,13 @@ nav{
     min-width: 70px;
     font-size: 20px;
     }
+    .flex-container{
+        flex-direction:column;
+    }
+    .container{
+        flex-grow: 0.5;
+        flex-direction: row;
+    }
     
 }
 @media screen and (max-width: 300px) {

@@ -65,7 +65,7 @@ li{
 }
 
 .main-button:hover {
-    font-size: 50px;
+    font-size: 30px;
     color: black;
     /* animation: leaves 0.5s linear; */
     /* background: linear-gradient(to right,#64125d,#21bbd6); */

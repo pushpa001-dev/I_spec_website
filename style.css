@@ -68,7 +68,7 @@ li{
 }
 
 .main-button:hover {
-    font-size: 30px;
+    font-size: 50px;
     color: black;
     /* animation: leaves 0.5s linear; */
     /* background: linear-gradient(to right,#64125d,#21bbd6); */
@@ -202,7 +202,7 @@ nav{
        
     min-height: 70px;
     min-width: 70px;
-    font-size: 20px;
+    font-size: 15px;
     }
     .flex-container{
         flex-direction:column;

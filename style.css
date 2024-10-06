@@ -39,9 +39,8 @@ li{
     color: rgb(211, 211, 226) ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-     margin-left: 15px;
+    margin-left: 15px;
    list-style: none;
-}
 }
 
 .main-button {
@@ -80,10 +79,11 @@ li{
 .flex-container {
     display: flex;
     gap: 50px;
+    flex-direction:row;
 }
 
 .container {
-    flex-grow: 1;
+    flex-grow: 0.5;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -211,10 +211,9 @@ nav{
         flex-grow: 0.5;
         flex-direction: row;
     }
-    
 }
 @media screen and (max-width: 300px) {
-       li{
+    li{
         font-size: 15px;
     }
     h4{
@@ -229,7 +228,13 @@ nav{
     min-width: 50px;
     font-size: 10px;
     }
-     .main-button:hover {
+    .popup-img{
+      display:flex;
+    }
+    .img-color{
+        display: flex;
+    }
+    .main-button:hover {
         font-size: 12px;
        
     
